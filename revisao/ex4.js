@@ -10,7 +10,7 @@ for (let i = 0; i < 4; i++) {
     }
     materiais.push(material);
 };
-console.log("=== RELATORIO DE ESTOQUE ===");  //colocar os console.log antes do for
+console.log("\n=== RELATORIO DE ESTOQUE ===");  //colocar os console.log antes do for
 
 for (let i = 0; i< materiais.length; i++ ) {
     const material = materiais[i];
